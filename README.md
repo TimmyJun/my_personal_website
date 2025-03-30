@@ -19,14 +19,9 @@
 - Font Awesome
 - Google Fonts
 
-## 如何運行
+## 🚀 Live Demo
 
-1. 使用 VS Code 的 Live Server 插件
-2. 或使用 Python 的簡易服務器：
-```bash
-python -m http.server
-```
-3. 在瀏覽器中訪問 `http://localhost:8000`
+Try out [here](https://timmyjun.github.io/my_personal_website/)
 
 ## 作者
 
