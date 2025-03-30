@@ -6,7 +6,7 @@ const Data = {
       title: "個人記帳 Web App",
       description: "直覺化的預算管理工具，幫助用戶追蹤每月開銷，並視覺化消費模式",
       technologies: ["HTML", "CSS", "JavaScript(ES6)"],
-      image: "../src/assets/images/balance-tracking.png",
+      image: "src/assets/images/balance-tracking.png",
       github: "https://github.com/TimmyJun/Balance-Tracking-App?tab=readme-ov-file",
       demo: "https://timmyjun.github.io/Balance-Tracking-App/",
       features: [
@@ -21,7 +21,7 @@ const Data = {
       title: "群組分帳 Web App",
       description: "幫助用戶快速分攤聚會費用，計算個人應付款項",
       technologies: ["HTML", "CSS", "JavaScript(ES6)", "Chart.js"],
-      image: "../src/assets/images/split-bills.png",
+      image: "src/assets/images/split-bills.png",
       github: "https://github.com/TimmyJun/Split-the-bills",
       demo: "https://timmyjun.github.io/Split-the-bills/",
       features: [
