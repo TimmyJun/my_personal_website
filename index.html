@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timmy's Portfolio</title>
+  <link rel="stylesheet" href="src/assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+  <div class="cursor-glow"></div>
+  <!-- Loading Page -->
+  <div class="loading-page">
+    <div class="loading-content">
+      <h1 class="loading-title">Timmy</h1>
+      <div class="loading-bar-container">
+        <div class="loading-bar"></div>
+      </div>
+      <p class="loading-text">Loading...</p>
+    </div>
+  </div>
+
+  <!-- Navigation bar -->
+  <nav class="navbar">
+    <div class="nav-brand">Timmy</div>
+    <!-- menu -->
+    <div class="nav-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <ul class="nav-menu">
+      <li><a href="#home">首頁</a></li>
+      <li><a href="#about">關於我</a></li>
+      <li><a href="#portfolio">作品集</a></li>
+      <li><a href="#experience">經歷</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home -->
+  <section id="home" class="section">
+    <div class="floating-shapes">
+      <div class="shape"></div>
+      <div class="shape"></div>
+      <div class="shape"></div>
+      <div class="shape"></div>
+      <div class="shape"></div>
+      <div class="shape"></div>
+    </div>
+    <div class="container">
+      <div class="home-content">
+        <h1 class="home-title">Hi, I'm Timmy</h1>
+        <p class="home-subtitle">Aspiring to become a Product Manager</p>
+        <div class="home-cta">
+          <a href="#portfolio" class="cta-button">查看作品集</a>
+        </div>
+        <div class="home-highlights">
+          <div class="highlight-item">
+            <span class="highlight-icon">🌍</span>
+            <span>跨文化溝通</span>
+          </div>
+          <div class="highlight-item">
+            <span class="highlight-icon">💻</span>
+            <span>前端開發</span>
+          </div>
+          <div class="highlight-item">
+            <span class="highlight-icon">🎯</span>
+            <span>專案管理</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="about-container">
+      <div class="about-header">
+        <h2 class="about-title">關於我</h2>
+      </div>
+      <div class="about-intro">
+        <div class="about-intro-text">
+          <p>
+            我是一名企管系應屆畢業生，曾在 BenQ 擔任全球網站管理與顧客服務實習生，具備跨部門協作、流程自動化、時程管理、數據分析與工作流程優化的經驗。<br><br>因為對程式開發產生興趣也曾在程式教育新創AlphaCamp學習網頁前端開發，熟悉 HTML, CSS, JavaScript等前端開發技術，對框架React.js, bootstrap, Tailwind也有基礎的認識及使用的經驗。<br><br>除此之外，我也擁有豐富的國際經驗，除了在校內擔任國際學伴，負責協助國際生適應留學生活，也有前往日本交換半年的經驗，對於使用外語達成跨文化溝通有足夠的自信。
+          </p>
+        </div>
+        <div class="about-profile-image-container">
+          <img src="../src/assets/images/personal_photo.jpeg" alt="Timmy's Profile" class="about-profile-image">
+        </div>
+      </div>
+      <div class="about-content">
+        <div class="about-text">
+          <p class="about-description">
+            我是一個什麼樣的人？
+          </p>
+          <div class="about-highlights">
+            <div class="highlight-card">
+              <span class="highlight-icon">🔍</span>
+              <h3 class="highlight-title">好奇心強</h3>
+              <p class="highlight-description">主動學習新技術，樂於探索不同領域的知識</p>
+            </div>
+            <div class="highlight-card">
+              <span class="highlight-icon">🛠️</span>
+              <h3 class="highlight-title">問題解決能力</h3>
+              <p class="highlight-description">善於分析問題並尋找最佳解決方案</p>
+            </div>
+            <div class="highlight-card">
+              <span class="highlight-icon">🧑‍💻</span>
+              <h3 class="highlight-title">自主學習能力</h3>
+              <p class="highlight-description">具備自學精神，能持續精進開發技能</p>
+            </div>
+            <div class="highlight-card">
+              <span class="highlight-icon">🤝</span>
+              <h3 class="highlight-title">團隊協作</h3>
+              <p class="highlight-description">善於溝通，能夠有效地與團隊成員合作</p>
+            </div>
+          </div>
+        </div>
+        <div class="about-skills">
+          <div class="skill-category">
+            <h4>前端技術</h4>
+            <div class="skill-list">
+              <div class="skill-item">
+                <i class="fab fa-html5"></i>
+                <span>HTML5</span>
+              </div>
+              <div class="skill-item">
+                <i class="fab fa-css3-alt"></i>
+                <span>CSS3</span>
+              </div>
+              <div class="skill-item">
+                <i class="fab fa-js"></i>
+                <span>JavaScript</span>
+              </div>
+              <div class="skill-item">
+                <i class="fab fa-react"></i>
+                <span>React</span>
+              </div>
+              <div class="skill-item">
+                <i class="fab fa-bootstrap"></i>
+                <span>Bootstrap</span>
+              </div>
+              <div class="skill-item">
+                <svg class="skill-icon" viewBox="0 0 256 154" fill="var(--primary-color)">
+                  <path
+                    d="M128 0C93.867 0 72.533 17.067 64 51.2C76.8 34.133 91.733 27.733 108.8 32c9.737 2.434 16.697 9.499 24.401 17.318C145.751 62.082 160.275 76.795 192 76.8c34.133 0 55.467-17.067 64-51.2c-12.8 17.067-27.733 23.467-44.8 19.2c-9.737-2.434-16.697-9.499-24.401-17.318C174.249 14.718 159.725 0 128 0zM64 76.8C29.867 76.8 8.533 93.867 0 128s17.067 51.2 51.2 51.2c34.133 0 55.467-17.067 64-51.2c-12.8 17.067-27.733 23.467-44.8 19.2c-9.737-2.434-16.697-9.499-24.401-17.318C81.751 138.882 67.225 76.8 64 76.8z" />
+                </svg>
+                <span>Tailwind</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h4>開發工具</h4>
+            <div class="skill-list">
+              <div class="skill-item">
+                <i class="fab fa-git-alt"></i>
+                <span>Git</span>
+              </div>
+              <div class="skill-item">
+                <i class="fab fa-github"></i>
+                <span>GitHub</span>
+              </div>
+              <div class="skill-item">
+                <i class="fab fa-npm"></i>
+                <span>npm</span>
+              </div>
+              <div class="skill-item">
+                <i class="fas fa-terminal"></i>
+                <span>CLI</span>
+              </div>
+              <div class="skill-item">
+                <i class="fas fa-code"></i>
+                <span>VS Code</span>
+              </div>
+              <div class="skill-item">
+                <i class="fab fa-figma"></i>
+                <span>Figma</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Portfolio -->
+  <section id="portfolio" class="section">
+    <div class="section-header">
+      <h2>Portfolio</h2>
+      <p>我的作品展示</p>
+    </div>
+    <div class="container">
+      <div class="portfolio-grid">
+        <!-- 作品卡片將由 JavaScript 動態生成 -->
+      </div>
+    </div>
+  </section>
+  <!-- 經歷區塊 -->
+  <section id="experience" class="section">
+    <div class="section-header">
+      <h2>Experience</h2>
+      <p>我的學經歷</p>
+    </div>
+    <div class="experience-timeline">
+      <div class="timeline-items">
+        <div class="timeline-progress"></div>
+        <!-- 經歷項目將由 JavaScript 動態生成 -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Contact Me</h3>
+        <div class="contact-info">
+          <p><i class="fas fa-phone"></i> 0925269621</p>
+          <p><i class="fas fa-envelope"></i> timmy40512@yahoo.com</p>
+        </div>
+      </div>
+      <div class="footer-section">
+        <h3>Social Links</h3>
+        <div class="social-links">
+          <a href="https://github.com/TimmyJun" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+          <a href="https://www.cake.me/dashboard" target="_blank" rel="noopener noreferrer">
+            <i class="fas fa-cake-candles"></i> Cake
+          </a>
+          <a href="https://www.linkedin.com/in/jiun-cheng-tsai-8877292b3/" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-linkedin"></i> LinkedIn
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Timmy Tsai. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- 深色模式切換按鈕 -->
+  <button id="theme-toggle" class="theme-toggle">
+    <span class="theme-icon">🌙</span>
+  </button>
+
+  <!-- 作品詳情模態框 -->
+  <div id="project-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <div class="modal-body">
+        <!-- 模態框內容將由 JavaScript 動態生成 -->
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script type="module" src="src/models/data.js"></script>
+  <script type="module" src="src/controllers/appController.js"></script>
+  <script type="module" src="src/views/view.js"></script>
+  <script type="module" src="src/views/cursorEffect.js"></script>
+  <script type="module" src="src/assets/js/main.js"></script>
+</body>
+
+</html>
