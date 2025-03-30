@@ -25,10 +25,9 @@ const Data = {
       github: "https://github.com/TimmyJun/Split-the-bills",
       demo: "https://timmyjun.github.io/Split-the-bills/",
       features: [
-        "即時多人同步",
-        "自定義分帳規則",
-        "支出歷史記錄",
-        "匯出報表功能"
+        "快速分帳",
+        "視覺化圖表",
+        "帳務追蹤",
       ]
     }
   ],
@@ -77,22 +76,6 @@ const Data = {
       startDate: "2021/09",
       endDate: "2024/06",
       description: ["利用外語能力協助外籍學生適應留學生活。", "協助國際交流中心籌辦5次以上迎新活動和文化體驗活動。"]
-    }
-  ],
-
-  // 技能
-  skills: [
-    {
-      category: "產品管理",
-      items: ["產品策略", "用戶研究", "需求分析", "產品規劃"]
-    },
-    {
-      category: "技術能力",
-      items: ["React.js", "JavaScript", "HTML/CSS", "Git"]
-    },
-    {
-      category: "其他技能",
-      items: ["專案管理", "團隊協作", "問題解決", "溝通能力"]
     }
   ],
 }
