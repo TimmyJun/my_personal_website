@@ -1,4 +1,4 @@
-# Timmy's Portfolio Website
+# Timmy's Personal Website
 
 個人作品集網站，展示我的技能、作品和經歷。
 
