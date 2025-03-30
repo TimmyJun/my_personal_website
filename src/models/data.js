@@ -6,7 +6,7 @@ const Data = {
       title: "個人記帳 Web App",
       description: "直覺化的預算管理工具，幫助用戶追蹤每月開銷，並視覺化消費模式",
       technologies: ["HTML", "CSS", "JavaScript(ES6)"],
-      image: "src/assets/images/balance-tracking.png",
+      image: "/my_personal_website/src/assets/images/balance-tracking.png",
       github: "https://github.com/TimmyJun/Balance-Tracking-App?tab=readme-ov-file",
       demo: "https://timmyjun.github.io/Balance-Tracking-App/",
       features: [
@@ -21,7 +21,7 @@ const Data = {
       title: "群組分帳 Web App",
       description: "幫助用戶快速分攤聚會費用，計算個人應付款項",
       technologies: ["HTML", "CSS", "JavaScript(ES6)", "Chart.js"],
-      image: "src/assets/images/split-bills.png",
+      image: "/my_personal_website/src/assets/images/split-bills.png",
       github: "https://github.com/TimmyJun/Split-the-bills",
       demo: "https://timmyjun.github.io/Split-the-bills/",
       features: [
@@ -95,34 +95,6 @@ const Data = {
       items: ["專案管理", "團隊協作", "問題解決", "溝通能力"]
     }
   ],
-
-  // Life Journey 輪播圖數據
-  lifeJourney: [
-    {
-      id: 1,
-      image: "../src/assets/images/personal_photo.jpeg",
-      title: "AI 研討會",
-      description: "參加 AI 技術研討會，與業界專家交流最新技術趨勢"
-    },
-    {
-      id: 2,
-      image: "../src/assets/images/personal_photo.jpeg",
-      title: "團隊會議",
-      description: "與跨國團隊進行產品開發討論"
-    },
-    {
-      id: 3,
-      image: "../src/assets/images/personal_photo.jpeg",
-      title: "程式開發",
-      description: "開發個人專案，實踐所學技術"
-    },
-    {
-      id: 4,
-      image: "../src/assets/images/personal_photo.jpeg",
-      title: "工作坊",
-      description: "參與產品設計工作坊，提升產品思維"
-    }
-  ]
-};
+}
 
 export { Data }; 
